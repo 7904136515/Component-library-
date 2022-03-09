@@ -1,3 +1,28 @@
-body{
-  background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+*,
+ *::after,
+ *::before{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+:root{
+  --primary-color: #427aa1;
+  --secondary-color: #7cae7a;
+  --text-color: #9d93a0;
+  --dark-color: #f1f2f6;
+  --clr-white: #fff;
+  --clr-black: #000;
 }
+
+html{
+  font-size: 16px;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--text-color);
+  color: var(--clr-black);
+  }
+
